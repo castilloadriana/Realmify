@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Realmify Profile</title>
+  <link rel="icon" type="image/x-icon" href="/images/chat-quote.svg">
+
+  <!-- Add the Bootstrap stylesheet -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="styles/profile.css">
+  <link rel="stylesheet" href="styles/nav-bar.css">
+</head>
+
+<body>
+  <nav>
+    <div>
+      <a href="index.html">
+        <h1>Realmify</h1>
+      </a>
+      <a id="create-new" href="create_realm.html">New Realm</a>
+      <a id="profile-link" href="">My Profile</a>
+    </div>
+  </nav>
+  
+  <div class="profile-container">
+    <img alt="Profile Picture" class="profile-picture" id="profile-picture">
+    <div class="profile-name" id="profile-name">Name here</div>
+    <div class="profile-contact" id="profile-contact"></div>
+    <div class="profile-upvotes" id="profile-upvotes"></div>
+
+    <button id="sign-out">Sign out</button>
+
+  </div>
+ 
+
+  <script type="module" src="src/profile.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>

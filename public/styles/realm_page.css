@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+  /* height: 100vh; */
+  background-color: white;
+}
+
+/* style AI-generated image */
+.generated-image {
+  width: 40%;
+}
+
+.container {
+  padding: 0;
+  background-color: white;
+  /* height: 86vh; */
+  display: flex;
+  width: 100%;
+  max-width: 100%;
+}
+
+.chat-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  border-left: 1px solid #ddd;
+}
+
+.chat-history {
+  padding: 20px;
+  overflow-y: auto;
+  flex: 1;
+}
+
+.message {
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #e4f0fe;
+  text-align: center;
+  max-width: 80%;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.post-meta {
+  margin: 0px;
+  color: gray;
+  font-style: italic;
+}
+
+.chat-input-container {
+  display: flex;
+  padding: 10px;
+  border-top: 1px solid #ddd;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  background-color: white;
+}
+
+.chat-input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px 0 0 5px;
+  font-size: 16px;
+}
+
+.chat-input:focus {
+  outline: none;
+}
+
+.send-button {
+  padding: 10px 15px;
+  border: none;
+  background-color: #505458;
+  color: white;
+  cursor: pointer;
+  border-radius: 0 5px 5px 0;
+  font-size: 16px;
+}
+
+.send-button:hover {
+  background-color: #cbcdce;
+}
+
+.back-button {
+  margin-top: auto;
+  left: 20px;
+  padding: 5px 10px;
+  font-size: 14px;
+  background-color: grey;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.back-button:hover {
+  background-color: grey;
+}
+
+.upvote-button, .downvote-button, .remix-button {
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+  border: none;
+  margin: 5px;
+  padding: 5px 10px;
+}
+
+#realm-header {
+  margin: 20px;
+  padding: 5px;
+  background-color: lightgray;
+}

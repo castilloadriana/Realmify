@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Realmify</title>
+    <link rel="icon" type="image/x-icon" href="/images/chat-quote.svg">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <!-- Add the Bootstrap stylesheet -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="styles/realm_page.css">
+    <link rel="stylesheet" href="styles/nav-bar.css">
+</head>
+
+<body>
+    <nav>
+        <div>
+            <a href="index.html">
+                <h1>Realmify</h1>
+            </a>
+            <a id="create-new" href="create_realm.html">New Realm</a>
+            <a id="profile-link" href="profile.html">My Profile</a>
+        </div>
+    </nav>
+    <div id="realm-header">
+        <h1 id="realm-title">Realm title</h1>
+        <p id="realm-desc">Realm description</p>
+    </div>
+    <div class="container" id="main">
+        <div class="chat-container">
+            <div class="chat-history" id="chat-history">
+            </div>
+            <br height="60px">
+            <div class="chat-input-container">
+                <input type="text" id="chat-input" class="chat-input" placeholder="Type your message here...">
+                <button class="send-button" id="send">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-arrow-up-square" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M15 2a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1zM0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm8.5 9.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707z" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="src/realm_page.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

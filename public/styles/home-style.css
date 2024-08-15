@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* CSS */
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f2f5; /* Light grey background for a soft look */
+}
+
+.container {
+  text-align: center; /* Center the text */
+  background-color: #ffffff; /* White background for the container */
+  padding: 40px 60px; /* Add some padding around the content */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
+  border-radius: 8px; /* Rounded corners */
+  max-width: 400px; /* Maximum width of the container */
+  width: 100%; /* Make sure it doesn't exceed the maximum width */
+}
+
+#sign-in {
+  background-color: #007bff; /* Blue background for the button */
+  color: #ffffff; /* White text for contrast */
+  border: none; /* Remove the default border */
+  padding: 10px 20px; /* Add some padding */
+  margin-top: 20px; /* Space above the button */
+  font-size: 16px; /* Increase the font size */
+  cursor: pointer; /* Change cursor to pointer on hover */
+  border-radius: 5px; /* Rounded corners for the button */
+  transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+#sign-in:hover {
+  background-color: #0056b3; /* Darken the button a bit when hovering */
+}
